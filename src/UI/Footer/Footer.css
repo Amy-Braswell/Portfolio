@@ -1,0 +1,29 @@
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    background-color:#aaa;
+    margin: 0;
+    padding: 0 4%;
+    width: 100%;
+    height: 6vh;
+    align-items: flex-end;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+.social-icon{
+    width: 4vh;
+    height: 4vh;
+}
+
+
+@media (min-width: 800px){
+/* LARGE TABLET AND UP */
+    footer {
+        width: 100%;
+        margin: 0;
+        padding: 0 6%;
+    }
+}

@@ -1,0 +1,70 @@
+.skills-background {
+    background-image: url('../../Images/Backgrounds/Page_Background.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4vh;
+    position: static;
+    min-height: 100%;
+    width: 100%;
+}
+
+.skills-page h2 {
+    margin: 0 auto;
+    margin-left: 7%;
+    text-align: left;
+    padding: 10vh 0 5vh;
+}
+  
+.skills-page h3 {
+    margin-bottom: -2vh;
+    font-size: 1.4em;
+}
+
+.skills-flex {
+    display: block;
+    width: 93%;
+    margin: 0 auto;
+    padding: 0 0 5vh;
+}
+
+.column {
+    width: 91%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 8vh;
+}
+
+.column p {
+    color: #333;
+}
+
+@media (min-width: 800px){
+/* LARGE TABLET AND UP */
+
+
+    .skills-page h2 {
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+    }
+  
+    .skills-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0 auto;
+        height: 100vh;
+    }
+  
+    .column {
+        width: 25%;
+        text-align: left;
+    }
+
+}
+  
+  
+  
+  

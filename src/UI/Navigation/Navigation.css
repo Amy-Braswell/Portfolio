@@ -1,0 +1,132 @@
+.nav-container {
+  position: relative; 
+  width: 100%;
+}
+
+.nav {
+  position: absolute;
+  z-index: 10000;
+  width: 100%;
+  top: -105vh;
+  margin-top: -3vh;
+  background:red;
+  -webkit-transition: top 0.3s ease-in;
+  -o-transition: top 0.3s ease-in;
+  transition: top 0.3s ease-in
+}
+
+.nav.show {
+  top: 0;
+}
+
+.menu-button {
+  position: relative;
+  cursor: pointer;
+  z-index: 9999;
+  font-size: 1.4em;
+  left: 93vw;
+  top: 3vh;
+  display: inline;
+  color:#999;
+}
+
+.close {
+  position: relative;
+  cursor: pointer;
+  z-index: 999999;
+  font-size: 1.4em;
+  left: 93vw;
+  top: 6vh;
+  display: inline;
+  color: black;
+}
+
+.menu-items{
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color:#EBEBD3;
+  background:red;
+  padding:1.5em 0;
+  border-bottom:1px solid #333;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.menu-link:hover  {
+  background-color: #dddddd ;
+  color:red ; 
+  -webkit-transition: top 0.5s ease-in;
+  -o-transition: top 0.5s ease-in;
+  transition: top 0.5s ease-in
+}
+
+.menu-link-active {
+  text-decoration: none;
+  position: relative;
+  color: black;
+}
+
+/********************** IPAD & LARGER **********************/
+@media (min-width: 700px){
+  .menu-button {
+      display: none;
+  }
+
+  .close {
+      display: none;
+  }
+  
+  .nav {
+      position: absolute;
+      margin-top: 0;
+      z-index: 10000;
+      width: 100vw;
+      top: 0;
+      background: black;
+  }
+
+  .menu-items {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 40vw;
+      left: 55vw;
+  }
+
+  .menu-link {
+      text-decoration: none;
+      font-size: .85em;
+      color:#aaa;
+      background:rgba(0,0,0,0);
+      width: 100%;
+      padding:10px 0;
+      margin: 0 20px;
+      border-bottom:none;
+      text-align: center;
+  }
+
+  .menu-link:hover  {
+      background-color: rgba(0,0,0,0) ;
+      color:red; 
+  }
+
+  .menu-link-active {
+      text-decoration: none;
+      position: relative;
+      color:#c68274;
+      font-weight: 600;
+  }
+
+}
+
