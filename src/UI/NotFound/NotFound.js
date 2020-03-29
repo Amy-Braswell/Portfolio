@@ -1,9 +1,11 @@
 import React from 'react'
+import './NotFound.css'
 
 function NotFound(){
     return(
-        <div>
-            404 -- This doesn't exist
+        <div className='not-found'>
+            <h1>404</h1>
+            <p> -- This doesn't exist</p>
         </div>
     )
 }
