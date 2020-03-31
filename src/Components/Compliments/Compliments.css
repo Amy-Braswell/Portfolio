@@ -1,0 +1,106 @@
+.compliments-background {
+    background-image: url('../../Images/Backgrounds/Page_Background_new.jpg');
+    background-position: right;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 4vh;
+    position: static;
+    min-height: 120%;
+    width: 100%;
+  }
+  
+  .compliments-flex {
+    width: 100%;
+    display: block;
+    padding: 0 7% 5vh;
+    justify-content: space-between;
+    margin-bottom: 20vh;
+  }
+  
+  .compliments-section h2{
+    text-align: left;
+    margin-left: 7%;
+    padding-top: 10vh;
+  }
+    
+  .statement-wrapper {
+    width: 100%;
+    text-align: left;
+  }  
+  
+  .statement-wrapper p{
+    text-align: left;
+    line-height: 1.8em;
+    color: #333;
+    padding: 1.5vh 0;
+  }
+
+  .quotation-mark-open {
+    position: relative;
+    top: 3.5vh;
+  }
+
+  .quotation-mark-close{
+    position: relative;
+    top: -.75vh;
+  }
+  
+  .recommender {
+    text-transform: uppercase;
+  }
+
+  .additional-recommendation {
+      margin-top: 10vh;
+  }
+  
+  @media (min-width: 800px) {
+  /* LAPTOP AND UP */
+      
+    .compliments-flex {
+      width: 100%;
+      display: inline-flex;
+      padding: 0 7% 10vh;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+      
+    .compliments-wrapper {
+      width: 100%;
+      align-items: center;
+      text-align: left;
+      padding-bottom: 3vh;
+    }
+          
+    .compliments-section h2{
+      text-align: left;
+      margin-left: 7%;
+      padding-top: 10vh;
+      padding-bottom: 5vh;
+    }
+      
+    .compliments-wrapper p{
+      text-align: left;
+      color: #333;
+      padding: 1.75vh 0;
+      line-height: 1.8em;
+    }
+
+    .left-recommendation {
+        width: 75%;
+        text-align: left;
+    }
+
+    .right-recommendation>p {
+        width: 75%;
+        text-align: right;
+        position: relative;
+        left: 25%;
+    }
+
+    .quotation-mark-open-right {
+        position: relative;
+        left: 29.4%;
+        top: 3.8vh;
+    }
+      
+  } 

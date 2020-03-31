@@ -12,6 +12,10 @@ export const menuData = [
         url: '/projects'
     },
     {
+        label: 'Compliments',
+        url: '/compliments'
+    },
+    {
         label: 'Skills',
         url: '/skills'
     },
