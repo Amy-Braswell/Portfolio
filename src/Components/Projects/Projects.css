@@ -107,9 +107,9 @@
 /********PROJECT PAGES*********/
 
 .project-page-background {
-    background-image: url('../../Images/Backgrounds/Page_Background.jpg');
+    background-image: url('../../Images/Backgrounds/Page_Background_new.jpg');
     background-position: right;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 4vh;
     position: static;
@@ -126,6 +126,7 @@
     width: 100%;
     display: block;
     padding: 0 7%;
+    margin-bottom: 20vh;
 }
 
 .project-description {

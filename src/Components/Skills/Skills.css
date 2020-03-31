@@ -1,5 +1,5 @@
 .skills-background {
-    background-image: url('../../Images/Backgrounds/Page_Background.jpg');
+    background-image: url('../../Images/Backgrounds/Page_Background_new.jpg');
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,7 @@
     width: 93%;
     margin: 0 auto;
     padding: 0 0 5vh;
+    margin-bottom: 20vh;
 }
 
 .column {
