@@ -19,13 +19,12 @@ function Compliments() {
                             alt='quote mark'
                             width='10vw'>
                         </img>
-                        <p>&nbsp; &nbsp;Amy is a strong contributor and kind team member that allows our projects to be completed 
+                        <p>&nbsp; &nbsp;Amy is a strong contributor and a kind team member that allows our projects to be completed 
                         with major success.   She brings an educator’s soul and knowledge base to projects while still maintaining the 
                         desire to learn and grow.   Amy is versatile and able handle any complication sent her way.  She is organized and 
-                        thoughtful allowing her to maintain a workflow with less guidance. More than technical proficiency and organization,
-                        Amy’s strongest characteristics are the ones that are hard to teach.  Hardworking.  Quick on her feet.  
-                        A self-starter. Loyal and Honest.  Patient.  These are essential parts of a supportive team member and will make 
-                        her successful in any role.&nbsp;
+                        thoughtful, allowing her to maintain a workflow with less guidance. However, Amy’s strongest characteristics are the 
+                        ones that are hard to teach.  Hardworking.  Quick on her feet.  A self-starter.  Loyal and Honest.  Patient.  These are 
+                        essential parts of a supportive team member and will make her successful in any role.&nbsp;
                         <img className='quotation-mark-close' 
                             src={require('../../Images/Quote-Marks/close_quote.jpg')} 
                             alt='quote mark'
@@ -42,12 +41,12 @@ function Compliments() {
                             width='10vw'>
                         </img>
                         <p>&nbsp; &nbsp;It is refreshing to come across a professional like Amy, who is a highly skilled and gifted 
-                        designer, developer, and web strategist. I had the pleasure of working with Amy at a GiveCamp Memphis event, 
-                        collaborating on a social media project. Amy’s ability to conceptualize the projects needs and create a direction to 
+                        designer, developer, and web strategist. I had the pleasure of working with Amy at a GiveCamp Memphis event 
+                        collaborating on a social media project. Amy’s ability to conceptualize the project's needs and create a direction to 
                         implement were truly remarkable for Craft Organization. In this tense and demanding short weekend, Amy was able to rise 
                         to the challenge and create products like a website and brand logo that brilliantly captured the concept of our organization. 
-                        No matter the challenge, as a team lead, Amy made sure to remind the team that she would see to it that things were completed 
-                        and done in a timely manner. She did just that. Therefore, Amy earns my highest recommendation.&nbsp;
+                        No matter the challenge, as a team lead, Amy made sure to remind the team that she would see to it that things were completed
+                         in a timely manner. She did just that. Therefore, Amy earns my highest recommendation.&nbsp;
                         <img className='quotation-mark-close' 
                             src={require('../../Images/Quote-Marks/close_quote.jpg')} 
                             alt='quote mark'

@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "alias": "amybraswell-portfolio.now.sh",
     "name": "portfolio-master",
     "routes": [
         { "handle": "filesystem" },

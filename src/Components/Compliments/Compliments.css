@@ -37,12 +37,17 @@
 
   .quotation-mark-open {
     position: relative;
-    top: 3.5vh;
+    top: 4vh;
   }
 
   .quotation-mark-close{
     position: relative;
     top: -.75vh;
+  }
+
+  .quotation-mark-open-right {
+    position: relative;
+    top: 4vh;
   }
   
   .recommender {
@@ -98,8 +103,7 @@
     }
 
     .quotation-mark-open-right {
-        position: relative;
-        left: 29.4%;
+        left: 25.9%;
         top: 3.8vh;
     }
       
