@@ -100,8 +100,8 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 40vw;
-      left: 55vw;
+      width: 50vw;
+      left: 45vw;
   }
 
   .menu-link {
