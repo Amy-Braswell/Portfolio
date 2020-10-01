@@ -28,13 +28,11 @@ class Projects extends Component{
                     <Link 
                         className='flex-project project-1-wrapper'
                         to='/project1'
-                        target='blank'
-                        // onMouseOver={this.handleHover} 
-                        // onMouseLeave={this.handleHover}                  
+                        target='blank'                 
                     >
                         <div className ='project-wrapper'>
                             <div className='project-1'>
-                            <p className={`project-1-title ${hover ? 'hover' : ''}`}>Natl Park App</p>
+                            <p className='project-1-title project-title'>Connectivity App</p>
                             </div>
                         </div>
                     </Link>
@@ -47,8 +45,7 @@ class Projects extends Component{
                         <div className ='project-wrapper'>
                             <div className='project-2'>
                             <br></br>
-                                <p id='p2-desktop' className='project-2-title-desktop project-title'>A Cat, A Dog, and<br></br>a Ticked Off Bird</p>
-                                <p id='p2-mobile' className='project-2-title-mobile project-title'>Weather App</p>
+                                <p id='p2' className='project-2-title project-title'>Natl Park App</p>
                             </div>
                         </div>
                     </Link>

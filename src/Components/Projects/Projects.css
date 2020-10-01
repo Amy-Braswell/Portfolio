@@ -33,14 +33,14 @@
 
 /* POSITIONING PROJECTS ON PAGE */
 .project-1-title {
-    color: #d25b67;
+    color: #cfa7ab;
     font-size: .8em;
     position: relative;
     top: 145px;
     text-align: center;
 }
 .project-1-wrapper {
-    background-image: url('../../Images/Project-Thumbnails/Arrowhead_750x750.jpg');
+    background-image: url('../../Images/Project-Thumbnails/Connectivity_750x750_new.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -50,16 +50,8 @@
     cursor: pointer;
 } 
 
-.project-1-wrapper:hover {
-    background-image: url('../../Images/Project-Thumbnails/Arrowhead_hover_750x750.jpg');
-}
-
-.project-2-title-desktop {
-    display: none;
-}
-
-.project-2-title-mobile {
-    color: #e5a5ac;
+.project-2-title {
+    color: #d2afb3;
     font-size: .8em;
     position: relative;
     top:65px;
@@ -67,7 +59,7 @@
 }
 
 .project-2-wrapper {
-    background-image: url('../../Images/Project-Thumbnails/Umbrella_700x700.png');
+    background-image: url('../../Images/Project-Thumbnails/Arrowhead_750x750.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -75,10 +67,6 @@
     height: 125px;
     order: 3;
     cursor: pointer;
-}
-
-.project-2-wrapper:hover {
-    background-image: url('../../Images/Project-Thumbnails/Umbrella_700x700_hover.png');
 }
 
 .project-3-title{
@@ -98,10 +86,6 @@
     height: 105px;
     order: 2;
     cursor: pointer;
-}
-
-.project-3-wrapper:hover {
-    background-image: url('../../Images/Project-Thumbnails/Camera_750x750_hover.jpg');
 }
 
 /********PROJECT PAGES*********/
@@ -390,8 +374,8 @@ a.project-link:hover {
     } 
     
     .project-1-title {
-        top: 310px;
-        font-size: .8em;
+        top: 305px;
+        font-size: 1em;
     }
     
     .project-2-wrapper {
@@ -399,19 +383,12 @@ a.project-link:hover {
         height: 225px;
         order: 2;
     }
-    
-    .project-2-title-desktop {
-        display: block;
-        position: relative;
-        color: #e5a5ac;
-        top: 135px;
-        font-size: .8em;
-        text-align: center;
-    }
 
-    .project-2-title-mobile {
-        display: none;
-    }
+    .project-2-title  {
+        top: 155px;
+        font-size: .9em;
+    } 
+    
     
     .project-3-wrapper {
         width: 100px;

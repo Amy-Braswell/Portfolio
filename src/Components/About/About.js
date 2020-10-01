@@ -13,7 +13,7 @@ function About() {
                </img>
             </div>
             <div className='statement-wrapper'>
-               <p className='first-p'>I am finishing the fullstack Web Developer track at Bloc. I enjoy the elegance of transforming code into a designed 
+               <p className='first-p'>I enjoy the elegance of transforming code into a designed 
                   experience for the end user. Balancing visual concerns with technical requirements is a welcomed validation of my formal 
                   arts education. However, what I truly love more than anything is the on-going challenge to find efficiency in a world of endless 
                   possibilities.

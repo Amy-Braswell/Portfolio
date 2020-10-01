@@ -37,7 +37,7 @@
 
   .quotation-mark-open {
     position: relative;
-    top: 4vh;
+    top: 4.5vh;
   }
 
   .quotation-mark-close{
@@ -47,7 +47,7 @@
 
   .quotation-mark-open-right {
     position: relative;
-    top: 4vh;
+    top: 4.5vh;
   }
   
   .recommender {
@@ -59,7 +59,7 @@
   }
   
   @media (min-width: 800px) {
-  /* LAPTOP AND UP */
+  /* TABLET AND UP */
       
     .compliments-flex {
       width: 100%;
@@ -108,3 +108,60 @@
     }
       
   } 
+
+  @media (min-width: 1023px) {
+    /* LAPTOP AND UP */
+
+    .quotation-mark-open {
+      top: 3.8vh;
+    }
+
+    .quotation-mark-open-right {
+      left: 25.5%;
+      top: 3.8vh;
+    }
+  }
+
+
+
+  @media (min-width: 1439px) {
+    /* LARGE LAPTOP AND UP */
+    .quotation-mark-open {
+      top: 3.8vh;
+    }
+
+    .quotation-mark-open-right {
+      left: 27.5%;
+      top: 3.8vh;
+    }
+
+    .left-recommendation {
+      width: 76%;
+    }
+  }
+
+  @media (min-width: 1680px) {
+    /* DESKTOP AND UP */
+
+    .quotation-mark-open {
+      top: 3.3vh;
+    }
+
+    .quotation-mark-open-right {
+      left: 31%;
+      top: 3.3vh;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    /* LARGE DESKTOP AND UP */
+
+    .quotation-mark-open {
+      top: 3.3vh;
+    }
+
+    .quotation-mark-open-right {
+      left: 27%;
+      top: 3.3vh;
+    }
+  }
