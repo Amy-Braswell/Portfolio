@@ -7,7 +7,8 @@
 <p><a href="https://amy-braswell-web.com/" target="blank">View Online!</a></p>
 
 <h3>DESCRIPTION</h3>
-<p>I am a full-stack developer based out of Chicago, IL. I am available for project work.</p>
+<p>I am a full-stack developer based out of Chicago, IL.</p>
+<p> I am available for project work.</p>
 
 <h3>CONTACT</h3>
 <p>Amy Braswell  <a href="mailto:braswellamy@mac.com? subject=Your Portfolio">braswellamy@mac.com</a></p>
