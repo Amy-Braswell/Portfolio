@@ -45,6 +45,7 @@ function Skills() {
                     <p>GitHub</p>
                     <p>Command Line Interface (CLI)</p>
                     <p>Chrome Dev Tools</p>
+                    <p>Cloudinary</p>
                     <p>Heroku</p>
                     <p>Vercel</p>
                     <p>Adobe Photoshop</p>

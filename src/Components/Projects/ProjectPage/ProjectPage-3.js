@@ -21,7 +21,6 @@ function ProjectPage3(){
                 </div>
 
                 <div className='project-description'>
-                    <h3>Camera Operations Quiz</h3>
                     <p>This quiz app tests the user's understanding of basic camera controls. The app was built to help photography students prepare for graded tests.</p> 
                     <p>The experience of this quiz was designed to offer challenging questions along with some humor to keep the mood light.</p> 
                     <p>I built this app to share with friends who teach photography so they can make it available to their students as a study guide. </p>
@@ -33,7 +32,7 @@ function ProjectPage3(){
                             target='_blank' 
                             rel='noopener noreferrer'
                         >
-                        Take the Quiz
+                        Try the App
                         </a>
                         <span className='link-divider'>|</span>
                         <a 

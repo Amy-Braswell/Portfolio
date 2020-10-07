@@ -1,10 +1,10 @@
 import React from 'react'
-import './Compliments.css'
+import './Testimonials.css'
 
-function Compliments() {
+function Testimonials() {
    return(
       <section className='compliments-section compliments-background'>
-         <h2>Compliments<span>.</span></h2>
+         <h2>Testimonials<span>.</span></h2>
          <div className='compliments-flex'>
             {/* <div className='headshot-wrapper'>
                <img className='headshot' 
@@ -83,5 +83,5 @@ function Compliments() {
    )
 }
 
-export default Compliments
+export default Testimonials
 

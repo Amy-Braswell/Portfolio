@@ -58,7 +58,7 @@
       margin-top: 10vh;
   }
   
-  @media (min-width: 800px) {
+  @media (min-width: 700px) {
   /* TABLET AND UP */
       
     .compliments-flex {
@@ -109,7 +109,7 @@
       
   } 
 
-  @media (min-width: 1023px) {
+  @media (min-width: 1000px) {
     /* LAPTOP AND UP */
 
     .quotation-mark-open {
@@ -124,7 +124,7 @@
 
 
 
-  @media (min-width: 1439px) {
+  @media (min-width: 1440px) {
     /* LARGE LAPTOP AND UP */
     .quotation-mark-open {
       top: 3.8vh;

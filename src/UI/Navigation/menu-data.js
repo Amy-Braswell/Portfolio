@@ -12,8 +12,8 @@ export const menuData = [
         url: '/projects'
     },
     {
-        label: 'Compliments',
-        url: '/compliments'
+        label: 'Testimonials',
+        url: '/testimonials'
     },
     {
         label: 'Skills',

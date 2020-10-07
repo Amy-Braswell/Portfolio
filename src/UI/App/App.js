@@ -5,7 +5,8 @@ import Footer from '../Footer/Footer'
 import NotFound from '../NotFound/NotFound'
 import Home from '../../Components/Home/Home'
 import About from '../../Components/About/About'
-import Compliments from '../../Components/Compliments/Compliments'
+import Testimonials
+ from '../../Components/Testimonials/Testimonials'
 import Projects from '../../Components/Projects/Projects'
 import Resume from '../../Components/Resume/Resume'
 import Skills from '../../Components/Skills/Skills'
@@ -26,7 +27,7 @@ export default class App extends Component {
             <Route path='/about' component={About} />
             <Route path='/projects' component={Projects} />
             <Route path='/resume' component={Resume} />
-            <Route path='/compliments' component={Compliments} />
+            <Route path='/testimonials' component={Testimonials} />
             <Route path='/skills' component={Skills} />
             <Route path='/project1' component={ProjectPage1} />
             <Route path='/project2' component={ProjectPage2} />

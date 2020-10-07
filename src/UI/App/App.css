@@ -1,68 +1,99 @@
+/*OVERFLOW*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar-track {
+background-color: transparent;
+height: 0;
+width: 0;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: transparent;
+height: 0;
+width: 0;
+}
+
+*::-webkit-scrollbar {
+display: none;
+height: 0;
+width: 0;
+background-color: transparent;
+}
+
+html, body {
+overflow-x: hidden;
+}
+
+
 
 /*TYPOGRAPHY*/
-  body {
-    font-family: 'Muli', sans-serif;
-    color: #111; 
-  }
+body {
+  font-family: 'Muli', sans-serif;
+  color: #111; 
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  letter-spacing: .07em;
+  font-weight: 300;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  letter-spacing: .07em;
+  font-weight: 300;
+}
+
+h1>span, h2>span {
+  color: #F20418;
+}
+
+p, a {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  letter-spacing: .07em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ADJUSTMENT FOR HAMBURGER MENU */
+
+.Content {
+  margin-top: -3.5vh;
+}
+
+
+/********************** MEDIA QUERY --  LARGE TABLET **********************************/
+@media (min-width: 1000px){
   
-  h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    letter-spacing: .07em;
-    font-weight: 300;
-    margin: 0;
+  /*TYPOGRAPHY (LARGE TABLET AND UP)*/
+    
+  h1 {
+    font-size: 2.8em;
   }
   
   h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    letter-spacing: .07em;
-    font-weight: 300;
-  }
-  
-  h1>span, h2>span {
-    color: #F20418;
-  }
-  
-  p, a {
-    font-family: 'Muli', sans-serif;
-    font-size: 1.2em;
-    line-height: 1.6em;
-    letter-spacing: .07em;
-  }
-  
-  a {
-    text-decoration: none;
+    font-size: 2.8em;
   }
 
   /* ADJUSTMENT FOR HAMBURGER MENU */
 
   .Content {
-    margin-top: -3.5vh;
+    margin-top: 0;
   }
-  
-  
-  /********************** MEDIA QUERY --  LARGE TABLET **********************************/
-  @media (min-width: 800px){
-  
-  /*TYPOGRAPHY (LARGE TABLET AND UP)*/
-    
-    h1 {
-      font-size: 2.8em;
-    }
-    
-    h2 {
-      font-size: 2.8em;
-    }
-
-  /* ADJUSTMENT FOR HAMBURGER MENU */
-
-    .Content {
-      margin-top: 0;
-    }
     
     
-    }
+}
   
   
   

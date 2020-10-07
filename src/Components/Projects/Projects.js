@@ -10,15 +10,8 @@ class Projects extends Component{
             hover: false
         }
     }
-   
-    handleHover = () => {
-    this.setState(prevState => ({
-        hover: !prevState.hover
-        }))
-    }
 
     render(){
-        const {hover} = this.state
 
         return(    
             <section className='project-section projects-background'>

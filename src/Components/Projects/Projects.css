@@ -95,14 +95,14 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 4vh;
+    padding-bottom: 2vh;
     position: static;
     min-height: 100%;
     width: 100%;
     }
 
 .project-page {
-    padding-bottom: 20vh;
+    padding-bottom: 2vh;
 
 }
   
@@ -132,6 +132,8 @@
 .project-description p{
     color: #333;
     padding: 1.5vh 0 0;
+    font-size: 1.2em;
+    margin-bottom: 3vh;
 }
 
 .screenshot-wrapper {
@@ -229,7 +231,7 @@ a.project-link:hover {
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
 /* LARGE TABLET AND UP */
 /* POSITIONING PROJECTS ON PROJECTS PAGE */
 
@@ -237,6 +239,7 @@ a.project-link:hover {
         text-align: right;
         padding-top: 3vh;
         margin-left: 12%;
+        margin-right: 3%;
         padding-top: 10vh;
     }
   
@@ -250,7 +253,7 @@ a.project-link:hover {
         position: relative;
         top: -12vh;
         bottom: 3vh;
-        left: 0;
+        left: 5%;
     }
     
     .flex-project {
@@ -345,7 +348,7 @@ a.project-link:hover {
   
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1440px) {
 /* LAPTOP AND UP */
 /* POSITIONING PROJECTS ON PROJECTS PAGE */
     
